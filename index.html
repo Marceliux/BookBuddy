@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ab42d8d05e.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="./js/index.js"></script>
+    <title>BookBuddy - Helping you to read more</title>
+</head>
+<body>
+    <div id="contenedor" class="container">
+        <div class="jumbotron shadow">
+
+            <!-- Header -->
+            <h1 class="display-4">Bienvenido a BookBuddy! <i class="fas fa-book"></i></h1>
+            <p class="lead">Esta es una herramienta que te permitirá buscar libros en formatos digitales de manera automatizada.</p>
+            <hr class="my-4">
+            <p class="lead">Utilizamos los siguientes buscadores para generar los links de descarga, visitalos y apoyalos:</p>
+            <!-- Fin Header -->
+
+            <!-- List de Buscadores -->
+            <ul class="list-group">
+                <li class="list-group-item"><a href="https://www.lectulandia.co/">Lectulandia</a></li>
+                <li class="list-group-item"><a href="https://bajaebooksgratis.com">Bajaebooksgratis</a></li>
+            </ul>
+            <!-- Fin List -->
+
+        </div>
+        <!-- Form Titulo y autor -->
+        <form class="mt-4 shadow-lg p-3 mb-5 bg-white rounded">
+            <div class="form-group">
+                <label for="txtTitulo">Titulo:</label>
+                <input type="text" class="form-control" id="txtTitulo">
+            </div>
+            <div class="form-group">
+                <label for="txtAutor">Autor:</label>
+                <input type="text" class="form-control" id="txtAutor">
+            </div>
+            <small id="emailHelp" class="form-text text-muted">Con estos parametros generamos los links que veras despues para descargar los libros.</small>
+            <button type="submit" id="btnBuscar" class="btn btn-dark mt-4">Buscar <i class="fas fa-search"></i></button>
+        </form>
+        <!-- Fin Form -->
+    </div>
+</body>
+</html>
