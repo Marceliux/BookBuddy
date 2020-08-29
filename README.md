@@ -31,12 +31,8 @@ let revisarBuscador = (autor, titulo) => {
 
 ## Temas a evaluar 
 ---
-| HTML5  | VanillaJS  | Bootstrap  | Git | SweetAlert | Diagrama | 
-|---|---|---|---|---| --- |
-| 30%  | 30%  | 15%  | 20%  | 5%  | |
+| HTML5  | VanillaJS  | Bootstrap  | Git | SweetAlert | 
+|---|---|---|---|---|
+| 30%  | 30%  | 15%  | 20%  | 5%  |
 
 *En Git contemplamos: repositorio funcional y con dos branches y su respectivo README.md o documentación acorde.*
-
-*Adjunto diagrama de ejemplo:*
-
-<div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://app.lucidchart.com/documents/embeddedchart/d87ae0af-7c2f-4486-b97b-c30433a7ad1d" id="ZNSqNQxDImfL"></iframe></div>
